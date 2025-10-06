@@ -267,5 +267,5 @@ The next logical step would be to add encryption, one of the core features that 
 
 # Useful Links
 
-https://www.wireguard.com/papers/wireguard.pdf
-https://community.openvpn.net/Pages/HowPacketsFlow.
+* https://www.wireguard.com/papers/wireguard.pdf
+* https://community.openvpn.net/Pages/HowPacketsFlow.
