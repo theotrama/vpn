@@ -263,8 +263,6 @@ sudo ./serverRouteConfig.sh
 This is, of course, a very naive VPN implementation — it lacks encryption, authentication, and connection management.
 The next logical step would be to add encryption, one of the core features that makes VPNs secure and private.
 
-
-
 # Useful Links
 
 * https://www.wireguard.com/papers/wireguard.pdf
