@@ -13,6 +13,8 @@
 *.tmp
 *~   # common editor backups
 *.bkp
+*.dtmp
+
 
 # ----------------------------
 # Go build artifacts
