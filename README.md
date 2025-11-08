@@ -8,22 +8,7 @@ from prying eyes and to ensure encryption.
 
 Go is a language perfectly suited for networking development, making it an ideal candidate for this project. Before
 diving into the actual implementation, however, I feel it’s necessary to explain what VPNs are and what different kinds
-of protocols exist. Afterwards, we’ll build our own minimal VPN implementation using only Go’s standard library plus the
-`songgao/water` package for working with TUN devices.
-
-___
-
-## Virtual Private Networks
-
-As a project to improve my computer networking skills and continue my Go learning journey, I decided to peek behind the
-curtain of a technology that has been around for a long time: **Virtual Private Networks (VPNs)**.
-
-These overlay networks, which provide a tunnel from server A to server B, are a great way to hide your internet traffic
-from prying eyes and to ensure encryption.
-
-Go is a language perfectly suited for networking development, making it an ideal candidate for this project. Before
-diving into the actual implementation, however, I feel it’s necessary to explain what VPNs are and what different kinds
-of protocols exist. Afterwards, we’ll build our own minimal VPN implementation using only Go’s standard library plus the
+of protocols exist. Afterward, we’ll build our own minimal VPN implementation using only Go’s standard library plus the
 `songgao/water` package for working with TUN devices.
 
 ___
