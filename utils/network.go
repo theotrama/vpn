@@ -13,9 +13,9 @@ import (
 func ParseIPv4(packet []byte) interfaces.IPv4 {
 	pkt := interfaces.IPv4{
 		Version:        (packet[0] & 0xF0) >> 4,
-		IHL:            (packet[0] & 0x0F) << 4,
-		DSCP:           (packet[1] & 0b11111100) >> 6,
-		ECN:            (packet[1] & 0b00111111) << 2,
+		IHL:            (packet[0] & 0x0F),
+		DSCP:           (packet[1] & 0b11111100) >> 2,
+		ECN:            (packet[1] & 0x03),
 		TotalLength:    binary.BigEndian.Uint16(packet[2:4]),
 		Identification: binary.BigEndian.Uint16(packet[4:6]),
 		Flags:          (packet[6] & 0b11100000) >> 5,
